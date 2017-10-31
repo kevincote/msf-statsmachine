@@ -81,6 +81,9 @@ class WeeklyStats:
             print "Total points: %s" % player[1]['Points']
             print "------------------------------------------------"
 
-stats = WeeklyStats("kaycee", "plr4954cl", 3)
+			
+USERNAME = ""
+PASSWORD = ""
+stats = WeeklyStats(USERNAME, PASSWORD, 3)
 
 print "done"
